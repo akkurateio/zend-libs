@@ -1,0 +1,23 @@
+{
+    "name": "subvitaminetm/libs",
+    "type": "library",
+    "description": "Subvitamine's libraries",
+    "version": "1.6.3",
+    "keywords": ["subvitaminetm libraries"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Subvitamine",
+            "email": "hello@subvitamine.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.6.30"
+    },
+    "autoload": {
+        "psr-4": {
+            "Subvitamine\\Libs\\": "src/"
+        }
+    }
+}
